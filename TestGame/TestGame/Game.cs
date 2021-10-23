@@ -252,23 +252,23 @@ namespace TestGame
                     case ConsoleKey.VolumeUp:
                     case ConsoleKey.W:
                         return Direction.Up;
-                        break;
+                        //break;
                     case ConsoleKey.DownArrow:
                     case ConsoleKey.PageDown:
                     case ConsoleKey.VolumeDown:
                     case ConsoleKey.S:
                         return Direction.Down;
-                        break;
+                       // break;
                     case ConsoleKey.RightArrow:
                     case ConsoleKey.RightWindows:
                     case ConsoleKey.D:
                         return Direction.Right;
-                        break;
+                        //break;
                     case ConsoleKey.LeftArrow:
                     case ConsoleKey.LeftWindows:
                     case ConsoleKey.A:
                         return Direction.Left;
-                        break;
+                        //break;
                 }
             }
         }
@@ -325,16 +325,16 @@ namespace TestGame
             {
                 case 0:
                     return RandomLine();
-                    break;
+                    //break;
                 case 1:
                     return RandomTrinagle();
-                    break;
+                    //break;
                 case 2:
                     return RandomRectangle();
-                    break;
+                    //break;
                 default:
                     return RandomSquare();
-                    break;
+                    //break;
             }
         }
         /// <summary>

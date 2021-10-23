@@ -8,6 +8,7 @@ namespace TestGame
 {
     class UnKnownErrorException:ApplicationException
     {
+#nullable enable
         public UnKnownErrorException(string? message) : base(message) { }
     }
 }

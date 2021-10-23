@@ -11,6 +11,7 @@ namespace TestGame
     /// </summary>
     public class ColidingObjectsException:ApplicationException
     {
+    #nullable enable
         public ColidingObjectsException(string? message) : base(message) { }
     }
 }
